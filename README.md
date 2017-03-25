@@ -4,7 +4,7 @@ This is the repo for a presentation and associated code on **an introduction to 
 
 ## Where to begin
 
-The presentation is located [here](http://yixinlin.net/intro-ml/intro-ml.pdf), which introduces some high-level concepts of machine learning and then introduces the idea of deep learning. Going through would be useful. Some good supplements include [Udacity's friendly intro to ML](https://www.youtube.com/watch?v=IpGxLWOIZy4), as well as the highly popular [Coursera course](https://www.coursera.org/learn/machine-learning) and [associated course](http://cs229.stanford.edu/materials.html)
+The presentation is located [here](http://yixinlin.net/intro-ml/intro-ml.pdf), which introduces some high-level concepts of machine learning and then introduces the idea of deep learning. Some good supplements include [Udacity's friendly intro to ML](https://www.youtube.com/watch?v=IpGxLWOIZy4), as well as the highly popular [Coursera course](https://www.coursera.org/learn/machine-learning) and [associated course](http://cs229.stanford.edu/materials.html).
 
 ## Code
 
@@ -22,9 +22,11 @@ Afterwards, just run `jupyter notebook` and get started with the notebooks!
 
 ### Training in the cloud
 
-Often, you don't want to use your personal machine to train your models. Sometimes you don't have a GPU, or don't want to keep your personal computer running. In that case, Github Education partners with Amazon Web Services to provide $100 of credit for you to run a GPU machine on Amazon's cloud. If you're a student, sign up with your edu account at [Github Student Developer Pack](https://education.github.com/pack) and choose the Amazon Educate package. [This](https://chrisalbon.com/jupyter/run_project_jupyter_on_amazon_ec2.html) looks like a good tutorial to get Jupyter set up with AWS, though I haven't personally tried it.
+Often, you don't want to use your personal machine to train your models. Sometimes you don't have a GPU, or don't want to keep your personal computer running. In that case, Github Education partners with Amazon Web Services to provide $100 of credit for you to run a GPU machine on Amazon's cloud. If you're a student, sign up with your edu account at [Github Student Developer Pack](https://education.github.com/pack) and choose the Amazon Educate package. Try [this tutorial](https://chrisalbon.com/jupyter/run_project_jupyter_on_amazon_ec2.html) to get Jupyter set up with AWS.
 
 ## Next steps
 
-Some resources on machine learning are located [here](https://docs.google.com/document/d/1BuYUH0w-hjZJHZr9POp0KileNE8CVzc1JUi4tuPs6O8/edit#), originally written as a list of resources for Duke's Machine Learning and Data Science (MLADS) club.
+Try completing the last notebook's problem for an interesting problem! At the end, you'll learn how to finetune a pretrained model to classify whatever dataset you want.
+
+Some more resources on machine learning are located [here](https://docs.google.com/document/d/1BuYUH0w-hjZJHZr9POp0KileNE8CVzc1JUi4tuPs6O8/edit#), originally written as a list of resources for Duke's Machine Learning and Data Science (MLADS) club.
 
