@@ -1,3 +1,9 @@
+.ipynb_checkpoints/
+
+# Data
+data/
+MNIST_data/
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
