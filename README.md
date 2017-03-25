@@ -18,7 +18,7 @@ First, clone or download this repository from Github.
 
 After installing Python 3, you can simply do a `pip install -r requirements.txt` for the dependencies. It'll install [Python 3](https://www.python.org/), [Jupyter](http://jupyter.org/), [NumPy](https://www.scipy.org/), [TensorFlow](https://www.tensorflow.org/), and [Keras](https://keras.io/), which are the dependencies in the attached Jupyter notebooks. [Scikit-learn](http://scikit-learn.org/) is optional but also recommended for experimenting with non-deep models.
 
-Afterwards, just run `jupyter notebook` and get started with the notebooks!
+Afterwards, just run `jupyter notebook` in this repository's directory and get started with the notebooks!
 
 ### Training in the cloud
 
