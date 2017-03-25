@@ -77,7 +77,7 @@
 }
 
 \usepackage{graphicx} % Allows including images
-\graphicspath{}
+\graphicspath{{Images/}{../Images/}}
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 \usepackage{amsmath}
 
@@ -85,7 +85,7 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Intro to ML]{Introduction to Deep Learning} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Intro to ML]{Introduction to Machine Learning} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Yixin Lin, Serge Assaad, Rohith Kuditipudi} % Your name
 \institute[Duke] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
@@ -103,15 +103,15 @@ Duke University \\ % Your institution for the title page
 \end{frame}
 
 \begin{frame}
-\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+\frametitle{Outline} % Table of contents slide, comment this block out to remove it
 \tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
-\section{Review of basic principles of machine learning}
+\section{Overview of basic principles of machine learning}
 \section{Introduction to neural networks}
 \section{Tutorial on implementing deep learning algorithms}
 \end{frame}
 
 
-\begin{frame}{Review of basic principles of machine learning}
+\begin{frame}{Overview of basic principles of machine learning}
 \begin{itemize}
     \item Three components to any ML problem: the \textbf{task}, the \textbf{performance measure} and the \textbf{data}
     \item Essential definitions
@@ -119,7 +119,13 @@ Duke University \\ % Your institution for the title page
         \item \textbf{Features}
         \item \textbf{Model}
         \item \textbf{Parameters}
+        \item \textbf{Loss}
         
+    \end{itemize}
+    \item Two (broad) kinds of tasks
+    \begin{itemize}
+        \item \textbf{Supervised learning}: data is labeled/annotated
+        \item \textbf{Unsupervised learning}: data is unlabeled 
     \end{itemize}
     
 \end{itemize}
@@ -140,6 +146,7 @@ Duke University \\ % Your institution for the title page
     \item Neurons are the building blocks of neural networks
     \item Each neuron is a \textbf{function}: $y=f(\textbf{w}^{T}\textbf{x}+\textbf{b})$
     \includegraphics[scale=0.4]{Neuron.png}
+    \item Note: \textbf{neural networks $\neq$ neuroscience!!!!!}
 \end{itemize}
 \end{frame}
 
